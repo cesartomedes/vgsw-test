@@ -219,10 +219,13 @@ if ($slider->have_posts()) : ?>
 
   
         <div class="absolute left-1/2 text-xs sm:text-sm -bottom-30 transform -translate-x-1/2 z-20">
-            <button type="submit" class="bg-blue-800 hover:bg-blue-900 text-white font-bold uppercase px-12 py-4 rounded-full shadow-xl transition-all">
-                Pide presupuesto
-            </button>
-        </div>
+    <button type="submit" 
+            class="bg-blue-800 hover:bg-blue-900 text-white font-bold uppercase 
+                   px-4 py-2 sm:px-8 sm:py-3 md:px-12 md:py-4 rounded-full shadow-xl transition-all">
+        Pide presupuesto
+    </button>
+</div>
+
 
     </div>
 </section>
@@ -247,7 +250,7 @@ if ($slider->have_posts()) : ?>
             Contamos con un excelente equipo de ingenieros, delineantes, técnicos y <br> montadores con experiencia y profesionalidad con el fin de que el cliente siempre <br>tenga el mejor resultado posible.<br><br> <br>
             Nos encanta asesorarte e intentar dar solución a tus inquietudes y proyectos y para<br> ello creemos en el trato personal y humano para poder resolver todas tus dudas.
           </p>
-          <a href="#contacto" class="inline-block px-12 mt-12 py-4 rounded-full border-2 border-[#9FCE00] bg-white text-[#3E509D] font-semibold text-lg hover:bg-transparent hover:text-[#9FCE00] transition-colors duration-300">
+          <a href="#contacto" class="inline-block px-6 py-3 mt-12 rounded-full border-2 border-[#9FCE00] bg-white text-[#3E509D] font-semibold text-sm sm:px-12 sm:py-4 sm:text-lg hover:bg-transparent hover:text-[#9FCE00] transition-colors duration-300">
             CONTACTA CON NOSOTROS
           </a>
         </div>
@@ -465,9 +468,13 @@ if ($slider->have_posts()) : ?>
           </p>
         </div>
         
-        <div class="inline-block bg-white text-[#3E509D] px-8 py-5 rounded-full cursor-pointer  transition-all duration-300 hover:-translate-y-1 shadow-lg hover:shadow-xl shadow-blue-200">
-          <h3 class="text-xl md:text-2xl font-bold tracking-wide m-0">CONTACTA CON NOSOTROS</h3>
-        </div>
+        <div class="inline-block bg-white text-[#3E509D] px-4 py-2 rounded-full cursor-pointer transition-all duration-300 hover:-translate-y-1 shadow-lg hover:shadow-xl shadow-blue-200
+            sm:px-6 sm:py-3 md:px-8 md:py-5">
+  <h3 class="text-sm sm:text-base md:text-xl md:leading-none font-bold tracking-wide m-0">
+    CONTACTA CON NOSOTROS
+  </h3>
+</div>
+
       </div>
     </div>
   </div>
